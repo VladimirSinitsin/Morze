@@ -6,7 +6,7 @@ from coder import morze
 
 window = Tk()
 window.title("Morze")
-window.geometry('1000x600+450+250')
+window.geometry('1000x500+450+250')
 
 pygame.init()
 pygame.mixer.music.load("beep.mp3")
@@ -38,6 +38,7 @@ def show():
 			runl.config(text=text[i:i+25])
 			time.sleep(0.1)
 		runl.update()
+
 		
 def show_message():
     lbl.config(text=message.get())
