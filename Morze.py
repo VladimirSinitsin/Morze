@@ -39,10 +39,6 @@ def show():
 			time.sleep(0.1)
 		runl.update()
 
-		
-def show_message():
-    lbl.config(text=message.get())
-
 btn = Button(text="Text.ToMorze()", command=show)
 btn.place(x=450, y=350)
 
