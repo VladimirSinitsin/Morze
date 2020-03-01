@@ -27,7 +27,7 @@ def show():
 	text = ' ' * 25 + morze(message.get())
 	for i in range(len(text)-24):
 		time.sleep(0.4)
-		if (text[i+24] == '.'):
+		if (text[i+24] == '•'):
 			runl.config(text=text[i:i+25])
 			pygame.mixer.music.play()
 			time.sleep(0.1)
